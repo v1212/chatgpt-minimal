@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <Layout hasSider className={styles.layout}>
       <Layout>
-        <HeaderBar />
+        {/* <HeaderBar /> */}
         <Content className={styles.main}>
           <ChatGPT fetchPath="/api/chat-completion" />
         </Content>
